@@ -1,0 +1,7 @@
+numpy
+protobuf
+xmltodict
+sacremoses
+transformers
+tensorboardX
+sentencepiece
