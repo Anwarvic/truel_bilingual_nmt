@@ -359,12 +359,12 @@ The following table explains every flag used for training; all flags can be foun
   <tr>
     <td>save-dir</td>
     <td>The directory to save the model checkpoints.</td>
-    <td>/mnt/disks/adisk/true_nmt/checkpoints/wmt14_fr_en_transformer_base</td>
+    <td>-</td>
   </tr>
   <tr>
     <td>tensorboard-logdir</td>
     <td>The directory to save TensorBoard logs.</td>
-    <td>/mnt/disks/adisk/true_nmt/logs</td>
+    <td>-</td>
   </tr>
   <tr>
     <td>optimizer</td>
