@@ -35,6 +35,8 @@ nohup fairseq-train $DATA \
     --best-checkpoint-metric bleu --maximize-best-checkpoint-metric \
     --max-epoch	50 \
     --patience 10 \
+    --encoder-criterion "max_pooled_cosine" \
+    --encoder-criterion-weight 2.0 \
     >> $LOGDIR/training.log 2>&1 &
     # --seed 1 \
     # --max-tokens-valid 4096 \
